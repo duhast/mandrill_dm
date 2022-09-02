@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
-  s.name = 'mandrill_dm'
-  s.version = '1.3.7'
-  s.date = '2020-03-20'
+  s.name = 'mandrill_dm2'
+  s.version = MandrillDm::VERSION
+  s.date = '2022-09-01'
   s.summary = 'A basic Mandrill delivery method for Rails.'
   s.description = 'A basic Mandrill delivery method for Rails.'
   s.authors = ['Jonathan Berglund', 'John Dell', 'Kirill Shnurov']
