@@ -1,3 +1,5 @@
+require_relative 'lib/mandrill_dm/version'
+
 Gem::Specification.new do |s|
   s.name = 'mandrill_dm2'
   s.version = MandrillDm::VERSION
@@ -6,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = 'A basic Mandrill delivery method for Rails.'
   s.authors = ['Jonathan Berglund', 'John Dell', 'Kirill Shnurov']
   s.email = ['jonathan.berglund@gmail.com', 'spovich@gmail.com']
-  s.homepage = 'http://github.com/spovich/mandrill_dm'
+  s.homepage = 'http://github.com/duhast/mandrill_dm2'
   s.license = 'MIT'
 
   s.files = Dir['{lib,spec}/**/*', '[A-Z]*'] - ['Gemfile.lock']

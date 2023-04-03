@@ -1,12 +1,11 @@
 require 'mandrill'
 require 'date'
+require_relative 'mandrill_dm/version'
 require_relative 'mandrill_dm/message'
 require_relative 'mandrill_dm/delivery_method'
 require_relative 'mandrill_dm/railtie' if defined? Rails
 
 module MandrillDm
-  VERSION = '1.3.11'.freeze
-
   class << self
     attr_accessor :configuration
   end
